@@ -10,6 +10,6 @@
   "license": "ISC",
   "homepage": "https://github.com/UKRMT/web-control",
   "dependencies": {
-    "openmct": "nasa/openmct",
+    "openmct": "nasa/openmct"
   }
 }
