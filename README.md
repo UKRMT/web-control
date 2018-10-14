@@ -15,3 +15,8 @@ npm run prepare
 ```
 
 This will clone the site source and install the OpenMCT dependency. Then you must install and configure OpenMCT's dependencies with the past two commands.
+
+## Note
+The historical telemetry server currently depends on a working php installation to create example data to be plotted. 
+
+The [TelemServer](https://github.com/UKRMT/MarsBotControl/tree/master/TelemServer) must be running on the server for realtime data to be available over websockets.
