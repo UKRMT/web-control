@@ -10,7 +10,7 @@ function HistoricalTelemetryPlugin() {
             },
             request: function (domainObject, options) {
 		console.log("key " + domainObject.identifier.key);
-		var url = '/test_data/telem.php?type=' +
+		var url = '/web-control/src/plugins/historical-telemetry-plugin/telem.php?type=' +
                     domainObject.identifier.key +
                     '&start=' + options.start +
                     '&end=' + options.end;

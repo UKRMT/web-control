@@ -1,5 +1,5 @@
 function getDictionary() {
-    return http.get('./dictionary.json').then(function (result) {
+    return http.get('/web-control/src/plugins/dictionary-plugin/dictionary.json').then(function (result) {
         return result.data;
         });
 }

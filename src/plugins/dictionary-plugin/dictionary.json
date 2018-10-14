@@ -1,0 +1,54 @@
+{
+    "name": "Telemetry",
+    "key": "sc",
+    "measurements": [
+        {
+            "name": "Received",
+            "key": "comms.recd",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "bytes",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Sent",
+            "key": "comms.sent",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "bytes",
+                    "format": "integer",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
