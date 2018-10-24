@@ -7,6 +7,7 @@
     <script src="src/plugins/dictionary-plugin/dictionary-plugin.js"></script>
     <script src="src/plugins/historical-telemetry-plugin/historical-telemetry-plugin.js"></script>
     <script src="src/plugins/realtime-telemetry-plugin/realtime-telemetry-plugin.js"></script>
+    <script src="src/plugins/imagery/plugin.js"></script>
 </head>
 <body>
     <script>
@@ -21,7 +22,7 @@
         openmct.install(DictionaryPlugin());
         openmct.install(HistoricalTelemetryPlugin());
         openmct.install(RealtimeTelemetryPlugin());
-
+	openmct.install(ImageryPlugin());
         openmct.start();
     </script>
 </body>
