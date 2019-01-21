@@ -15,7 +15,7 @@
         openmct.install(openmct.plugins.LocalStorage());
         openmct.install(openmct.plugins.MyItems());
         openmct.install(openmct.plugins.UTCTimeSystem());
-		openmct.time.clock('local', {start: (-4 * 60 * 60 * 1000) - (5 * 60 * 1000), end: -(4 * 60 * 60 * 1000)});
+		openmct.time.clock('local', {start: (-5 * 60 * 1000), end: (30 * 1000)});
 		openmct.time.timeSystem('utc');
         openmct.install(openmct.plugins.Espresso());
 
