@@ -49,7 +49,7 @@
                     }
                 }
             ]
-        }
+        },
 		{
             "name": "Motor 1",
             "key": "control.motor1",
@@ -73,7 +73,7 @@
                     }
                 }
             ]
-        }
+        },
 		{
             "name": "Motor 2",
             "key": "control.motor2",
@@ -97,7 +97,7 @@
                     }
                 }
             ]
-        }
+        },
 		{
             "name": "Motor 3",
             "key": "control.motor3",
@@ -121,7 +121,7 @@
                     }
                 }
             ]
-        }
+        },
 		{
             "name": "Motor 4",
             "key": "control.motor4",
