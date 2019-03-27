@@ -482,6 +482,30 @@
           }
         }
       ]
+    },
+    {
+      "name": "Main Battery Voltage",
+      "key": "control.mainbattey",
+      "values": [
+        {
+          "key": "value",
+          "name": "Main Battery Voltage",
+          "units": "Volts",
+          "format": "float",
+          "hints": {
+            "range": 15
+          }
+        },
+        {
+          "key": "utc",
+          "source": "timestamp",
+          "name": "Timestamp",
+          "format": "utc",
+          "hints": {
+            "domain": 1
+          }
+        }
+      ]
     }
   ]
 }
