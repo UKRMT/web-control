@@ -56,12 +56,21 @@
         "key": "control.motor1",
         "values": [
           {
-            "key": "value",
-            "name": "Motor 1",
+            "key": "speed",
+            "name": "Motor 1 Speed",
             "units": "PWM",
             "format": "integer",
             "hints": {
               "range": 256
+            }
+          },
+          {
+            "key": "current",
+            "name": "Motor 1 Current",
+            "units": "Amps",
+            "format": "integer",
+            "hints": {
+              "range": 30
             }
           },
           {
