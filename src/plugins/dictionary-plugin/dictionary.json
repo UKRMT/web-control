@@ -2,149 +2,247 @@
     "name": "Telemetry",
     "key": "sc",
     "measurements": [
-        {
-            "name": "Received",
-            "key": "comms.recd",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Value",
-                    "units": "bytes",
-                    "format": "integer",
-                    "hints": {
-                        "range": 1
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Sent",
-            "key": "comms.sent",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Value",
-                    "units": "bytes",
-                    "format": "integer",
-                    "hints": {
-                        "range": 1
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-		{
+      {
+        "name": "Received",
+        "key": "comms.recd",
+        "values": [
+          {
+            "key": "value",
+            "name": "Value",
+            "units": "bytes",
+            "format": "integer",
+            "hints": {
+              "range": 1
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+
+      {
+        "name": "Sent",
+        "key": "comms.sent",
+        "values": [
+          {
+            "key": "value",
+            "name": "Value",
+            "units": "bytes",
+            "format": "integer",
+            "hints": {
+              "range": 1
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Motor 1",
+        "key": "control.motor1",
+        "values": [
+          {
+            "key": "value",
             "name": "Motor 1",
-            "key": "control.motor1",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Motor",
-                    "units": "pwm",
-                    "format": "integer",
-                    "hints": {
-                        "range": -512, 512
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-		{
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Motor 2",
+        "key": "control.motor2",
+        "values": [
+          {
+            "key": "value",
             "name": "Motor 2",
-            "key": "control.motor2",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Motor",
-                    "units": "pwm",
-                    "format": "integer",
-                    "hints": {
-                        "range": -512, 512
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-		{
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+
+      {
+        "name": "Motor 3",
+        "key": "control.motor3",
+        "values": [
+          {
+            "key": "value",
             "name": "Motor 3",
-            "key": "control.motor3",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Motor",
-                    "units": "pwm",
-                    "format": "integer",
-                    "hints": {
-                        "range": -512, 512
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-		{
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Motor 4",
+        "key": "control.motor4",
+        "values": [
+          {
+            "key": "value",
             "name": "Motor 4",
-            "key": "control.motor4",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Motor",
-                    "units": "pwm",
-                    "format": "integer",
-                    "hints": {
-                        "range": -512, 512
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        }
+            "units": "pwm",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dig Motor",
+        "key": "control.digmotor",
+        "values": [
+          {
+            "key": "value",
+            "name": "Dig Motor",
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Offload Motor",
+        "key": "control.offloadmotor",
+        "values": [
+          {
+            "key": "value",
+            "name": "Offload Motor",
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Arm 1",
+        "key": "control.arm1",
+        "values": [
+          {
+            "key": "value",
+            "name": "Arm 1 Speed",
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Arm 2",
+        "key": "control.arm2",
+        "values": [
+          {
+            "key": "value",
+            "name": "Arm 2 Speed",
+            "units": "PWM",
+            "format": "integer",
+            "hints": {
+              "range": 256
+            }
+          },
+          {
+            "key": "utc",
+            "source": "timestamp",
+            "name": "Timestamp",
+            "format": "utc",
+            "hints": {
+              "domain": 1
+            }
+          }
+        ]
+      }
     ]
 }
