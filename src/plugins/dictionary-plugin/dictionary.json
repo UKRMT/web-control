@@ -77,7 +77,7 @@
     },
     {
       "name": "Motor 1 Current",
-      "key": "control.motor1current",
+      "key": "sensors.motor1current",
       "values": [
         {
           "key": "value",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Motor 2 Current",
-      "key": "control.motor2current",
+      "key": "sensors.motor2current",
       "values": [
         {
           "key": "value",
@@ -173,7 +173,7 @@
     },
     {
       "name": "Motor 3 Current",
-      "key": "control.motor3current",
+      "key": "sensors.motor3current",
       "values": [
         {
           "key": "value",
@@ -221,7 +221,7 @@
     },
     {
       "name": "Motor 4 Current",
-      "key": "control.motor4current",
+      "key": "sensors.motor4current",
       "values": [
         {
           "key": "value",
@@ -269,7 +269,7 @@
     },
     {
       "name": "Dig Motor Current",
-      "key": "control.digmotorcurrent",
+      "key": "sensors.digmotorcurrent",
       "values": [
         {
           "key": "value",
@@ -317,7 +317,7 @@
     },
     {
       "name": "Offload Motor Current",
-      "key": "control.offloadmotorcurrent",
+      "key": "sensors.offloadmotorcurrent",
       "values": [
         {
           "key": "value",
@@ -365,7 +365,7 @@
     },
     {
       "name": "Arm 1 Current",
-      "key": "control.arm1current",
+      "key": "sensors.arm1current",
       "values": [
         {
           "key": "value",
@@ -389,7 +389,7 @@
     },
     {
       "name": "Arm 1 Position",
-      "key": "control.arm1position",
+      "key": "sensors.arm1position",
       "values": [
         {
           "key": "value",
@@ -437,7 +437,7 @@
     },
     {
       "name": "Arm 2 Current",
-      "key": "control.arm2current",
+      "key": "sensors.arm2current",
       "values": [
         {
           "key": "value",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Arm 2 Position",
-      "key": "control.arm2position",
+      "key": "sensors.arm2position",
       "values": [
         {
           "key": "value",
@@ -485,7 +485,7 @@
     },
     {
       "name": "Main Battery Voltage",
-      "key": "control.mainbattey",
+      "key": "sensors.mainbattey",
       "values": [
         {
           "key": "value",
