@@ -11,6 +11,7 @@ function RealtimeTelemetryPlugin() {
 
         socket.onmessage = function (event) {
             point = JSON.parse(event.data);
+	    console.log(point);
             if (listener[point.id]) {
                 listener[point.id](point);
             }
