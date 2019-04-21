@@ -340,12 +340,12 @@
       ]
     },
     {
-      "name": "Arm 1 Speed",
-      "key": "control.arm1speed",
+      "name": "Raise Arm Speed",
+      "key": "control.raisearmspeed",
       "values": [
         {
           "key": "value",
-          "name": "Arm 1 Speed",
+          "name": "Raise Arm Speed",
           "units": "PWM",
           "format": "integer",
           "hints": {
@@ -364,12 +364,12 @@
       ]
     },
     {
-      "name": "Arm 1 Current",
-      "key": "sensors.arm1current",
+      "name": "Raise Arm Current",
+      "key": "sensors.raisearmcurrent",
       "values": [
         {
           "key": "value",
-          "name": "Arm 1 Current",
+          "name": "Raise Arm Current",
           "units": "Amps",
           "format": "integer",
           "hints": {
@@ -388,12 +388,12 @@
       ]
     },
     {
-      "name": "Arm 1 Position",
-      "key": "sensors.arm1position",
+      "name": "Raise Arm Position",
+      "key": "sensors.raisearmposition",
       "values": [
         {
           "key": "value",
-          "name": "Arm 1 Position",
+          "name": "Raise Arm Position",
           "units": "%",
           "format": "integer",
           "hints": {
@@ -411,17 +411,17 @@
         }
       ]
     },
-    {
-      "name": "Arm 2 Speed",
-      "key": "control.arm2speed",
+     {
+      "name": "Dig Arm Speed",
+      "key": "sensors.digarmspeed",
       "values": [
         {
           "key": "value",
-          "name": "Arm 2 Speed",
+          "name": "Dig Arm Speed",
           "units": "PWM",
           "format": "integer",
           "hints": {
-            "range": 256
+            "range": 4096
           }
         },
         {
@@ -435,14 +435,14 @@
         }
       ]
     },
-    {
-      "name": "Arm 2 Current",
-      "key": "sensors.arm2current",
+     {
+      "name": "Dig Arm Current",
+      "key": "sensors.digarmcurrent",
       "values": [
         {
           "key": "value",
-          "name": "Arm 2 Current",
-          "units": "PWM",
+          "name": "Dig Arm Current",
+          "units": "Amps",
           "format": "integer",
           "hints": {
             "range": 30
@@ -460,12 +460,12 @@
       ]
     },
     {
-      "name": "Arm 2 Position",
-      "key": "sensors.arm2position",
+      "name": "Dig Arm Position",
+      "key": "sensors.digarmposition",
       "values": [
         {
           "key": "value",
-          "name": "Arm 2 Position",
+          "name": "Dig Arm Position",
           "units": "PWM",
           "format": "integer",
           "hints": {
@@ -482,7 +482,7 @@
           }
         }
       ]
-    },
+    },  
     {
       "name": "Main Battery Voltage",
       "key": "sensors.mainbattey",
